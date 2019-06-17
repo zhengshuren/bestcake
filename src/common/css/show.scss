@@ -1,0 +1,227 @@
+.show {
+    background: #f5f5f5;
+    padding-bottom: 4vw;
+}
+.moreCake {
+    position: fixed;
+    right: -1px;
+    top: 4vw;
+    background-color: rgba(255,255,255,0.5);
+    width: 22vw;
+    height: 9vw;
+    border-radius: 1.2vw 0vw 0vw 1.2vw;
+    line-height: 8vw;
+    text-align: center;
+    z-index: 2;
+    border: 1px solid #333;
+    font-size: 4vw;
+}
+.show > div {
+    background: white;
+}
+.banner {
+    overflow: hidden;
+}
+.mint-swipe {
+    width: 100%;
+    height: 117.667vw;
+}
+.mint-swipe-item img {
+    width: 100%;
+    height: 100%;
+}
+.cakeName p {
+    line-height: 4.53vw;
+    font-weight: bold;
+    color: #333;
+    font-size: 4.53vw;
+    margin-top: 2vw;
+    margin-bottom: 4vw;
+    text-align: center;
+}
+.promotion {
+    width: 100%;
+    height: 8vw;
+    text-align: center;
+    margin-bottom: 8vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.promotion p {
+    // float: left;
+    // margin-right: 2vw;
+    font-size: 4vw;
+    line-height: 8vw;
+    width: 8vw;
+    height: 8vw;
+    text-align: center;
+    color: #fff;
+    border-radius: 2px;
+    background: #f2495e;
+    margin-right: 1.33vw;
+}
+.cakeDatil {
+    margin-top: 4vw;
+    overflow: hidden;
+}
+.cakeDatil > div:nth-of-type(1) {
+    margin-top: 9.066vw;
+}
+.cakeDatil > div:nth-last-of-type(1) {
+    margin-bottom: 9.066vw;
+}
+.cakeInfo {
+    margin-bottom: 4vw;
+    display: flex;
+    justify-content: space-between;
+}
+.cake-info-left {
+    font-size: 3.93vw;
+    float: left;
+    width: 15.93vw;
+    margin-left: 4vw;
+}
+.cake-info-left p {
+    color: #9A9A9A;
+    line-height: .6rem;
+}
+.cake-info-right {
+    font-size: 3.93vw;
+    float: left;
+    width: 72vw;
+    margin-left: 4vw;
+    margin-right: 4vw;
+}
+.cake-info-right p {
+    color: #252525;
+    line-height: .6rem;
+}
+.cake-info-right img {
+    vertical-align: top;
+    width: 22.4vw;
+    margin-top: 0.6vw;
+}
+.goodsComment {
+    padding: 4vw;
+    margin-top: 4vw;
+    display: flex;
+    justify-content: space-between;
+}
+.goodsComment div {
+    font-size: 3.73vw;
+}
+.sizeTab {
+    margin-top: 4vw;
+    overflow: hidden;
+}
+.sizeTab >ul {
+    margin-top: 8vw;
+    overflow: hidden;
+}
+.sizeTab > ul li {
+    float: left;
+    font-size: 3.73vw;
+    text-align: center;
+    line-height: 8vw;
+    padding: 0 3.5875vw;
+    height: 8vw;
+    margin-left: 4vw;
+    background: #fff;
+    border-radius: 2px;
+    color: #333;
+    border: 1px solid #ddd;
+}
+.sizeTab .active {
+    background: skyblue;
+    border: none;
+    color: white;
+}
+.userRecment {
+    margin-top: 10vw;
+}
+.userRecment ul {
+   overflow: hidden;
+   vertical-align: middle;
+}
+.userRecment ul li {
+    width: 48%;
+    float: left;
+    margin-bottom: 4vw;
+    
+}
+.userRecment ul li img {
+    float: left;
+    width: 12%;
+    margin-right: 2.66vw;
+    margin-left: 3.4vw;;
+ }
+.userRecment ul li span {
+    float: left;
+    line-height: 6.5vw;
+    font-size: 3.73vw;
+}
+.goodnum {
+    margin-top: 4vw;
+    padding: 4vw 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+.goodnum > div {
+   font-size: 3.73vw; 
+   margin: 0 4vw;
+}
+.goodnum_right span {    
+    font-size: 3.73vw;
+    text-align: center;
+    // width: 16.66666667%;
+    width: 12vw;
+    display: inline-block;
+}
+.goodnum_right img {
+    width: 2.13333vw;
+    height: auto;
+}
+.count {
+    font-size: 4.2vw;
+    color: #f2495e;
+    font-weight: bolder;
+    width: 36vw;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-align: left;
+    padding-left: 4vw;
+    line-height: 8vw;
+}
+.discount {
+    font-size: 2.4vw;
+    color: #333;
+    width: 36vw;
+    text-align: left;
+    padding-left: 4vw;
+    margin-bottom: 2vw;
+}
+.add_text {
+    width: 29.335vw;
+    text-align: center;
+    line-height: 14vw;
+    font-size: 16px;
+}
+.mint-tab-item {
+    padding: 0;
+    border-top: 1px solid #e5e5e5;
+}
+.mint-tabbar .is-selected {
+    background:white;
+    color: black;
+}
+.buynow button {
+    width: 100%;
+    height: 14vw;
+    border: none;
+    background: #02d3d6;
+    color: #fff;
+}
+

@@ -1,0 +1,253 @@
+.city {
+    position: absolute;
+    left: 0;
+    top: 4vw;
+    background-color: rgba(255,255,255,0.5);
+    background-image: url(https://res.bestcake.com/m-images-2/location.png);
+    background-repeat: no-repeat;
+    width: 20vw;
+    height: 8vw;
+    border-radius: 0vw 1.2vw 1.2vw 0vw;
+    line-height: 8vw;
+    background-size: 6.4vw 6.4vw;
+    background-position: 0.8vw 0.8vw;
+    padding-left: 3.6vw;
+    text-align: center;
+    z-index: 1;
+    color: #333;
+    font-size: 4vw;
+}
+.mint-swipe {
+    width: 100%;
+    // width: 100vw;
+    height: 50.667vw;
+}
+.mint-swipe-item img {
+    width: 100%;
+    height: 100%;
+}
+.banner {
+    padding: 0 3.066666666666667vw 4vw;
+    // width: 100%;
+    border-bottom: 2.666666666666667vw solid #fafafa;
+    overflow:hidden;
+    // box-sizing: border-box;
+}
+.icon-banner {
+    width: 23.46666666666667vw;
+    float: left;
+    text-align: center;
+    margin-top: 3.2vw;
+    font-size: 0;
+}
+.icon-img {
+    width: 15.2vw;
+    height: 15.2vw;
+    display: inline-block;
+    position: relative;
+}.icon-img img {
+    width: 56px;
+    height: 56px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    max-width: initial !important;
+    margin-left: -28px;
+    margin-top: -28px;
+}
+.icon-title {
+    text-align: center;
+    font-size: 3.4vw;
+    color: #333;
+    line-height: .6rem;
+}
+.advertising {
+    overflow: hidden;
+    padding: 4vw;
+    border-bottom: 2.666666666666667vw solid #fafafa;
+}
+.advertising > div {
+    height: 40vw;
+    width: 45vw;
+}
+.advertising > div:nth-of-type(1) {
+    float: left;
+    img {
+        width: 45vw;
+        height: 40vw;
+    }
+}
+.advertising > div:nth-of-type(2) {
+    float: right;
+    img {
+        width: 45vw;
+        height: 19.5vw;
+    }
+}
+.mint-tab-item-label {
+    line-height: .6rem;
+}
+.advertising > div:nth-of-type(2) img:nth-of-type(2) {
+    margin-top: 1vw;
+}
+.special {
+    vertical-align: middle;
+    max-width: 100% !important;
+    height: auto;
+    width: 100vw;
+    margin: 6.667vw 0 2.667vw;
+}
+.special-title {
+    text-align: center;
+    color: #999;
+    font-size: 3.2vw;
+    line-height: 4.8vw;
+    margin-bottom: 8vw;
+}
+.mofa-tab {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 4vw;
+    margin-bottom: 2.666666666667vw;
+}
+.mofa-tab .active {
+    background: url(https://res.bestcake.com/m-images-2/mofa-2.png) no-repeat center center;
+    background-size: cover;
+    color: white;
+} 
+.mofa-tab > div {
+    width: 16vw;
+    height: 8.8vw;
+    text-align: center;
+    line-height: 7.466666666666667vw;
+    font-size: 3.2vw;
+    color: #333;
+    background: url(https://res.bestcake.com/m-images-2/mofa-1.png) no-repeat center center;
+    background-size: 16vw 8.8vw;
+}
+.mofa-list {
+    line-height: .6rem;
+    text-align: center;
+    padding-left: 4vw;
+    padding-right: 5.333333333333333vw;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2.666666666666667vw solid #fafafa;
+    padding-bottom: 5.333333333333333vw;
+    img {
+        height: 24vw;
+    }
+}
+.pinzhi-list {
+    height: 29.333vw;
+    margin-bottom: 3.2vw;
+    position: relative;
+    padding: 0 4vw;
+}
+.pinzhi-img {
+    width: 29.333vw;
+    height: 29.333vw;
+    float: left;
+    img {
+        width: 100%;
+        height: 100%;
+    }
+    p {
+        max-width: 50vw;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        font-size: .6rem;
+    }
+}
+.pinzhi-name {
+    font-size: 4.267vw;
+    color: #333333;
+    margin: 1.067vw 0 0;
+    line-height: .6rem;
+}
+.pinzhi-cart {
+    width: 11.2vw;
+    height: 11.2vw;
+    position: absolute;
+    right: 4vw;
+    bottom: 0;
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}
+.pinzhi-info {
+    width: 50vw;
+    font-size: 3.2vw;
+    color: #999;
+    margin-bottom: 1.067vw;
+    line-height: .6rem;
+    text-overflow: ellipsis;
+    white-space: nowrap; 
+    overflow: hidden;
+    // white-space: nowrap;
+    // overflow: hidden;
+    text-overflow: ellipsis;
+}
+.pinzhi-tip img {
+    height: 4.8vw;
+    margin-right: 0.4vw;
+    line-height: .6rem;
+}
+.pinzhi-detail {
+    width: 50vw;
+    float: left;
+    margin-left: 4vw;
+}
+.chooseCity {
+    z-index: 999999;
+    background: rgb(255, 255, 255);
+    position:absolute;
+    width: 77.33vw;
+    left: 11.47vw;
+    top: 8.84vh;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 1;
+}
+.c_city {
+    width: 100%;
+    height: 100%;
+    opacity: .9;
+    background:#333;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right:0px;
+}
+.chooseTitle {
+    border-bottom: 0.15vw solid rgb(51, 51, 51);
+    display: block;
+    width: 20vw;
+    font-size: 4.26vw;
+    padding-top: 2.39vh;
+    padding-bottom: 1.79vh;
+    margin: auto;
+    line-height: 3.37vh;
+    margin-bottom: 5.24vh;
+}
+.chooseCity ul {
+    margin-bottom: 2.24vh;
+    font-size: 4.6vw;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    li {
+        margin-bottom: 2.24vh;
+        text-align: center;
+        padding: 0 2vw;
+        span {
+            width: 18.66vw;
+            color: #333;
+            font-size: 3.73vw;
+            line-height: 4.94vh;
+            display: block;
+        }
+    }
+}

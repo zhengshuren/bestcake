@@ -1,0 +1,95 @@
+.hello {
+    background: #f1f1f1;
+}
+.personImg {
+    padding-top: 6.66vw;
+    background: white;
+    width: 100%;
+    text-align: center;
+}
+.personImg img {
+    width: 21.06vw;
+    border-radius: 50%;
+}
+.username {
+    text-align: center;
+    padding-top: 1.33vw;
+    line-height: 5.33vw;
+    font-size: 3.73vw;
+    color: #333;
+    background: white;
+    border: 0;
+}
+.vipLevels {
+    padding-top: 8.66vw;
+    background: #fff;
+    padding-bottom: 4vw;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.vipLevels div {
+    width: 25%;
+}
+.vipLevels .title {
+    line-height: 4vw;
+    font-size: 2.93vw;
+    color: #ccc;
+}
+.vipLevels .content {
+    padding-top: 1.73vw;
+    line-height: 5.73vw;
+    font-size: 4.8vw;
+    color: #333;
+}
+.otherInfo {
+    margin-top: 4vw;
+    background: #fff;
+}
+.otherInfo > div {
+   padding-left: 4vw; 
+   display: flex;
+   justify-content: space-between;
+}
+.otherInfo .info-left {
+    padding-top: 3.38vw;
+    padding-bottom: 4vw;
+    display: flex;
+    justify-content: space-between;
+}
+.otherInfo .info-left img {
+    width: 4vw;
+    height: 6vw;
+}
+.otherInfo .info-left p {
+    padding-left: 2.66vw;
+    line-height: 6vw;
+    font-size: 4.4vw;
+}
+.otherInfo > div > img {
+    width: 2.4vw;
+    height: 4vw;
+    margin-right: 4vw;
+    padding-top: 4.86vw;
+}
+.line {
+    clear: both;
+    border-bottom: 0.27vw solid #ddd;
+    margin: 0 4vw;
+}
+.footer-tel {
+    margin-top: 35.73vw;
+    line-height: 4vw;
+    color: #999;
+    text-align: center;
+    font-size: 2.93vw;
+}
+.footer-info {
+    margin-top: 10vw;
+    line-height: 4vw;
+    color: #999;
+    font-size: 2.93vw;
+    text-align: center;
+    padding-bottom: 34vw;
+}

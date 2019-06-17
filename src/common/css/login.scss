@@ -1,0 +1,20 @@
+.listTab {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #999999;
+}
+.listTab > div {
+    width: 50%;
+    font-size: 4.266vw;
+    text-align: center;
+    height: 8.533vw;
+    height: 13vw;
+    line-height: 12vw;
+}
+.listTab .active {
+    color: #1db0b8;
+    border-bottom: 2px solid #1db0b8;
+}
+.btn {
+    margin: .28rem .2rem;
+}
