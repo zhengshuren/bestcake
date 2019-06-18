@@ -116,15 +116,20 @@ const mutations={
 			if (item.flag) {
 				state.cartList.splice(index, 1);
 				state.cartNum--;
-				Store.set("cartList", state.cartList);
-				Store.set("cartNum", state.cartNum);
 			}
 		});
+		Store.set("cartList", state.cartList);
+		Store.set("cartNum", state.cartNum);
 	},
 	// 刷新购物车
 	updateStore (state) {
 		Store.set("cartList", state.cartList);
 		Store.set("cartNum", state.cartNum);
+	},
+	// 换头像
+	changeHeaderImg () {
+		// state.loginInfo = data;
+		Store.set('loginInfo', state.loginInfo);
 	}
 
 }

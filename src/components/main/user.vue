@@ -1,7 +1,7 @@
 <template>
   <div class="hello">
     <!-- <h1>我是测试页</h1> -->
-    <div class="personInfo" v-if="this.$store.state.loginInfo.name">
+    <div class="personInfo" v-if="this.$store.state.loginInfo">
       <div class="personImg">
         <img v-if="this.$store.state.loginInfo.avatar" :src="this.$store.state.loginInfo.avatar" alt="" @click="checkInfo">
         <img v-else src="http://m.bestcake.com/images/icon_user.jpg" alt="" @click="checkInfo">

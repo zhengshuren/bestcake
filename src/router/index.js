@@ -73,7 +73,7 @@ const router = new Router({
         meta: {
           title: '个人中心'
         },
-        component: resolve => require(['@/components/main/info'], resolve),
+        component: resolve => require(['@/components/main/info'], resolve)
       }]
   }]
 })

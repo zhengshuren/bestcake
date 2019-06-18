@@ -19,7 +19,7 @@
       </div>
       <div v-else>
         <mt-field label="用户名" placeholder="请输入用户名" v-model="username"></mt-field>
-        <mt-field label="密码" placeholder="请输入密码" type="password" v-model="password1"></mt-field>
+        <mt-field label="密码" placeholder="请输入密码" type="password" v-model="password"></mt-field>
         <mt-field label="确认密码" placeholder="请输入密码" type="password" v-model="password2"></mt-field>
         <mt-field label="昵称" placeholder="请输入昵称" v-model="name"></mt-field>
         <div class="btn">
@@ -27,7 +27,7 @@
         </div>
       </div>
     </div>
-    <input type="file">
+    <!-- <input type="file"> -->
 </div>
 </template>
 
@@ -42,7 +42,7 @@ export default {
       flag: true,
       username: '',
       password: '',
-      password1: '',
+      // password1: '',
       password2: '',
       name: ''
     }
@@ -65,7 +65,7 @@ export default {
       }
       this.$apis.mokeRegister({
         username: this.username,
-        password: this.password1,
+        password: this.password,
         name: this.name
       }).then (res => {
         // console.log(res.data.msg);
@@ -82,7 +82,7 @@ export default {
         console.log(err);
       });
       let instance = Toast({
-        message: res.data.msg,
+        message: '注册失败',
         iconClass: 'icon icon-fail'
       });
       setTimeout(() => {
@@ -92,11 +92,11 @@ export default {
     // 注册验证
     verify () {
       let msg = '注册成功';
-      if (this.password1 !== this.password2) {
+      if (this.password !== this.password2) {
         msg = '两次密码输入不一致';
         return msg;
       }
-      if (this.password1 === '' || this.password2 === '' || this.username === '' || this.name === '') {
+      if (this.password === '' || this.password2 === '' || this.username === '' || this.name === '') {
         msg = '信息未填写完整';
         return msg;
       }

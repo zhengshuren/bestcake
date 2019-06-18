@@ -50,8 +50,15 @@ export default {
     }
   },
   mounted () {
-    this.setTopTab(0);
-    this.setChildTab(0);
+    if (this.$route.query.index) {
+      //  console.log(this.$route.query);
+      this.setTopTab(this.$route.query.index);
+      this.setChildTab(this.$route.query.c_index);
+    } else {
+      this.setTopTab(0);
+      this.setChildTab(0);
+    }
+    
   },
   methods: {
     addCarts (cake, e) {

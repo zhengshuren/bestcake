@@ -11,12 +11,14 @@
     </mt-swipe>
     <div class="banner">
       <div class="icon-banner" v-for="(item, index) in activeIco" :key="index">
-        <a href="#">
-          <div class="icon-img">
-            <img :src="item.ImgUrl" alt="">
-          </div>
-        </a>
-        <div class="icon-title">{{item.ActName}}</div>
+        <div>
+          <a href="#">
+            <div class="icon-img">
+              <img :src="item.ImgUrl" alt="">
+            </div>
+          </a>
+          <div class="icon-title">{{item.ActName}}</div>
+        </div>
       </div>
     </div>
     <div class="advertising">
