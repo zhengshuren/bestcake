@@ -145,10 +145,16 @@ export default {
         this.bannerImg.push(url);
       });
     });
+    // 获取小图标数据
+    this.$apis.NewIndexController().then(res => {
+      this.iconMsg = res.data.Tag.mainresult.TopIconList;
+      // console.log(res.data.Tag.mainresult.TopIconList);
+      
+    })
     // 获取商品数据
     this.$apis.GetIndexCakeList().then(res => {
       // 小图标
-      this.iconMsg = res.data.Tag.iconList;
+      // this.iconMsg = res.data.Tag.iconList;
       // 全部数据
       res.data.Tag.list.forEach(element => {
         let flag = (element.SupplyNo.indexOf("RP") === -1);

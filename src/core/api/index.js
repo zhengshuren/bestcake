@@ -9,7 +9,20 @@ class Apls {
   }
   mokeRegister(data){
 		return mock.post("/login",{params:data})
-	}
+  }
+  // 小图标信息
+  NewIndexController () {
+    let data = {
+      v: '1563550331101',
+      c: 'NewIndexController',
+      m: 'index'
+    }
+    return request({
+      method: 'get',
+      url: '/json1811.ashx',
+      params: data
+    })
+  }
   // 首页的蛋糕信息
   GetIndexCakeList () {
     // console.log(store.City);
